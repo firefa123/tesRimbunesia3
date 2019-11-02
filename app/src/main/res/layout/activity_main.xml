@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#780bde"
+    tools:context="com.firefa.tesrimbunesia3.MainActivity">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:text="PEMAIN BOLA"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#f5f5f5"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:background="#a868e3"/>
+
+</LinearLayout>
